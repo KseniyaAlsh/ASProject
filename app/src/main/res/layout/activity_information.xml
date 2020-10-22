@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="309dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Информационный отдел\n\nCтруктурное подразделение
+Администрации, обеспечивающее сбор и обработку информации. Отдел
+взаимодействует со всеми органами местного самоуправления городского
+округа и их структурными подразделениями, муниципальными
+учреждениями и предприятиями, выступая координатором в сборе
+распространении информации об их деятельности, проведении анализа
+социально-экономических процессов и оценке ситуаций, формировании
+баз и банка данных по основным направлениям деятельности
+муниципального образования городского округа.
+"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="122dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="186dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Администрация городского округа Шаховская"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
